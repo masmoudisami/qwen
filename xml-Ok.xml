@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CstmrCdtTrfInitn>
+<GrpHdr>
+<MsgId>test xml 1</MsgId>
+<CreDtTm>2025-05-26T15:18:50</CreDtTm>
+<NbOfTxs>2</NbOfTxs>
+<CtrlSum>452.500</CtrlSum>
+<InitgPty>
+<Nm>SAMI</Nm>
+<PstlAdr>
+<StrtNm>avenue des roses</StrtNm>
+<PstCd>1001</PstCd>
+<TwnNm>tunis</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</InitgPty>
+</GrpHdr>
+<PmtInf>
+<PmtInfId>SALAIRE AVRIL</PmtInfId>
+<PmtMtd>TRF</PmtMtd>
+<BtchBookg>false</BtchBookg>
+<ReqdExctnDt>2024-12-11</ReqdExctnDt>
+<Dbtr>
+<Nm>SAMI</Nm>
+<PstlAdr>
+<StrtNm>avenue des roses</StrtNm>
+<PstCd>1002</PstCd>
+<TwnNm>tunis</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</Dbtr>
+<DbtrAcct>
+<Id>
+<IBAN>TN5912003000330070607942</IBAN>
+</Id>
+</DbtrAcct>
+<DbtrAgt>
+<FinInstnId>
+<BIC>UBCITNTTXXX</BIC>
+</FinInstnId>
+</DbtrAgt>
+<ChrgBr>DEBT</ChrgBr>
+<CdtTrfTxInf>
+<PmtId>
+<EndToEndId>REG TEST</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="TND" >301.500</InstdAmt >
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>BSTUTNTTXXX</BIC>
+<Nm>TIJARI BANK</Nm>
+<PstlAdr>
+<StrtNm>AVENUE HABIB BOURGUIBA</StrtNm>
+<PstCd>1000</PstCd>
+<TwnNm>TUNIS</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>EMPLOYE 1</Nm>
+<PstlAdr>
+<StrtNm>RUE HASSANINE</StrtNm>
+<PstCd>1082</PstCd>
+<TwnNm>ARIANA</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>TN5904202061001400054173</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>SALAIRE AVRIL</Ustrd>
+</RmtInf>
+</CdtTrfTxInf>
+<CdtTrfTxInf>
+<PmtId>
+<EndToEndId>SALAIRE AVRIL</EndToEndId>
+</PmtId>
+<Amt>
+<InstdAmt Ccy="TND" >151.000</InstdAmt >
+</Amt>
+<CdtrAgt>
+<FinInstnId>
+<BIC>ATBKTNTTXXX</BIC>
+<Nm>BIAT</Nm>
+<PstlAdr>
+<StrtNm>AVENUE HABIB BOURGUIBA</StrtNm>
+<PstCd>1000</PstCd>
+<TwnNm>TUNIS</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</FinInstnId>
+</CdtrAgt>
+<Cdtr>
+<Nm>EMPLOYE 2</Nm>
+<PstlAdr>
+<StrtNm>RUE LOTFI</StrtNm>
+<PstCd>1004</PstCd>
+<TwnNm>SOUKRA</TwnNm>
+<Ctry>TN</Ctry>
+</PstlAdr>
+</Cdtr>
+<CdtrAcct>
+<Id>
+<IBAN>TN5901028070111006804463</IBAN>
+</Id>
+</CdtrAcct>
+<RmtInf>
+<Ustrd>SALAIRE AVRIL</Ustrd>
+</RmtInf>
+</CdtTrfTxInf>
+</PmtInf>
+</CstmrCdtTrfInitn>
+</Document>
