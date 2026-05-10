@@ -1,0 +1,29 @@
+```gitignore
+# VBA/Office files
+*.bas
+*.cls
+*.frm
+*.vba
+*.vbs
+*.bas~
+*.cls~
+*.frm~
+
+# Excel/Office artifacts
+*.xlsm
+*.xlsx
+*.xls
+*.xml
+
+# Temp files
+*.tmp
+*.temp
+~$*
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+```
